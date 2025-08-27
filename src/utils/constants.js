@@ -19,9 +19,9 @@ export const STATUS_COLORS = {
 export const INITIAL_LEADS = [
   {
     id: '1',
-    name: 'John Doe',
-    email: 'john@example.com',
-    phone: '+1234567890',
+    name: 'Rohit',
+    email: 'rohit@gmail.com',
+    phone: '+919999999999',
     company: 'TechCorp',
     source: 'Website',
     status: 'New',
@@ -30,9 +30,9 @@ export const INITIAL_LEADS = [
   },
   {
     id: '2',
-    name: 'Jane Smith',
-    email: 'jane@company.com',
-    phone: '+0987654321',
+    name: 'Himanshu',
+    email: 'Himanshu@gmail.com',
+    phone: '+919999977777',
     company: 'DataFlow Inc',
     source: 'LinkedIn',
     status: 'Contacted',
