@@ -34,7 +34,7 @@ cd lead-management-module
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/<your-username>/lead-management-module.git
+git clone git@github.com:VishalChoudhary/lead-management-module.git
 cd lead-management-module.git
 ```
 
