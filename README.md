@@ -1,12 +1,51 @@
-# React + Vite
+# 📋 Lead Management Module (Frontend Only)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **React + Tailwind CSS** application featuring a **Lead Capture Form** and **Lead List** with validation, search, delete functionality, and localStorage persistence.  
+This project is built with **Vite**, **React**, and **TailwindCSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- 📝 **Lead Capture Form** with validation (Name, Email, Phone required).  
+- 📋 **Lead List** displaying saved leads in a table.  
+- 🔍 **Search functionality** to filter leads by any field (name, email, phone, company, notes).  
+- 🗑️ **Delete functionality** to remove a lead from the list.  
+- 💾 **Persistent storage** using localStorage.  
+- 📱 Responsive design using Tailwind CSS.  
+- ⚡ Built with clean, reusable components (`LeadForm`, `LeadList`, `LeadManagement`).  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📋 Prerequisites
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)  
+- npm (comes with Node.js)  
+
+---
+
+## 🛠️ Setup & Installation
+
+### 1. Unzip the Project
+```bash
+unzip lead-management-module.zip
+cd lead-management-module
+```
+
+## OR
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/<your-username>/lead-management-module.git
+cd lead-management-module.git
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 2. Run Development Server
+```bash
+npm run dev
+```
+
+### App will be running at http://localhost:5173
